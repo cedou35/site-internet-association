@@ -1,5 +1,7 @@
+/*page d'accueil*/
 body {
   background-color: #65ccfc;
+  overflow-x: hidden;
 }
 
 h1 {
@@ -11,6 +13,11 @@ h2 {
 }
 
 img {
-  width: 1380px;
+  width: 1980px;
   height: 300px;
+}
+
+/*footer*/
+#footer {
+  text-align: center;
 }
