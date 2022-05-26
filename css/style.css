@@ -21,3 +21,106 @@ img {
 #footer {
   text-align: center;
 }
+
+/*Onglet du menu accueil*/
+.menu {
+  text-align: center;
+  background-color: #2cbcff;
+}
+
+.button1 {
+  background-color: #65ccfc;
+  border-top-left-radius: 45%;
+  border-top-right-radius: 45%;
+  border-color: #65ccfc;
+  border-style: solid;
+  color: black;
+  font-weight: bold;
+}
+
+.button1:hover {
+  background-color: #65ccfc;
+  border-top-left-radius: 45%;
+  border-top-right-radius: 45%;
+  border-color: #65ccfc;
+  border-style: solid;
+  color: black;
+}
+
+.button2 {
+  background-color: #2cbcff;
+  border-top-left-radius: 45%;
+  border-top-right-radius: 45%;
+  border-color: #65ccfc;
+  border-style: solid;
+  color: white;
+}
+
+.button2:hover {
+  background-color: white;
+  border-top-left-radius: 45%;
+  border-top-right-radius: 45%;
+  border-color: white;
+  border-style: solid;
+  color: #65ccfc;
+  font-weight: bold;
+}
+
+/*page d'événements*/
+.event {
+  background-color: #65ccfc;
+  overflow-x: hidden;
+}
+
+.eventTitle {
+  text-align: center;
+}
+
+img {
+  width: 1980px;
+  height: 300px;
+}
+
+/*Onglet du menu événements*/
+.menu {
+  text-align: center;
+  background-color: #2cbcff;
+}
+
+.button4 {
+  background-color: #2cbcff;
+  border-top-left-radius: 45%;
+  border-top-right-radius: 45%;
+  border-color: #65ccfc;
+  border-style: solid;
+  color: white;
+}
+
+.button4:hover {
+  background-color: white;
+  border-top-left-radius: 45%;
+  border-top-right-radius: 45%;
+  border-color: white;
+  border-style: solid;
+  color: #65ccfc;
+  font-weight: bold;
+}
+
+.button3 {
+  background-color: #65ccfc;
+  border-top-left-radius: 45%;
+  border-top-right-radius: 45%;
+  border-color: #65ccfc;
+  border-style: solid;
+  color: black;
+  font-weight: bold;
+}
+
+.button3:hover {
+  background-color: #65ccfc;
+  border-top-left-radius: 45%;
+  border-top-right-radius: 45%;
+  border-color: #65ccfc;
+  border-style: solid;
+  color: black;
+}
