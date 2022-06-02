@@ -16,16 +16,11 @@ body {
 
 h1 {
   text-align: center;
-  font-size: 4.5vw;
+  width: auto;
 }
 
 h2 {
   text-align: center;
-  font-size: 4.0vw;
-}
-
-p {
-  font-size: 3.0vw;
 }
 
 /*footer*/
@@ -33,10 +28,17 @@ p {
   text-align: center;
 }
 
+.btn {
+  margin-right: 100px;
+  padding-left: -100%;
+}
+
 /*Onglet du menu accueil*/
 .menu {
   text-align: center;
   background-color: #2cbcff;
+  margin-right: 5%;
+  padding-left: -5%;
 }
 
 .button1 {
@@ -134,4 +136,13 @@ p {
 
 /* media queries*/
 
-@media screen and (max-width: 320px) {}
+@media (max-width: 425px) {
+
+  h1,
+  h2,
+  p {
+    font-size: 100%;
+  }
+
+  #footer {}
+}
